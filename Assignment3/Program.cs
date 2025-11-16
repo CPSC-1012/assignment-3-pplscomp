@@ -39,6 +39,8 @@ namespace Assignment3
             // create a variable to represent the logical size of the array
             int minutesLogicalSize = minutes.Length - 1;
 
+
+
             DisplayProgramIntro();
 
             DisplayMainMenu();
