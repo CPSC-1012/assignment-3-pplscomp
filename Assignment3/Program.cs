@@ -199,9 +199,6 @@ namespace Assignment3
         /// </summary>
         static void DisplayMainMenu()
         {
-            Console.WriteLine("/tMonthly Time Tracker");
-            Console.WriteLine("/tMain Menu");
-            Console.WriteLine("/t--------------------");
             Console.WriteLine("[N]ew Daily Entries");
             Console.WriteLine{"[S]ave Entries to File");
             Console.WriteLine("[E]dit Entries");
