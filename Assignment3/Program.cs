@@ -249,6 +249,16 @@
 
             // optional TODO: create the PromptInt() method
 
+            /// <summary>
+            /// Allows to Prompt the user for a value classified as a integer.
+            /// </summary>
+            static void PromptInt(int value)
+            {
+                int value;
+                Console.Write("Enter a Value");
+                int.Parse(Console.ReadLine());
+            }
+
             // TODO: create the CalculateLargest() method
 
             // TODO: create the CalculateSmallest() method
