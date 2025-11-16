@@ -1,20 +1,13 @@
-﻿///<summary>
-///Program to run as a monthly time tracker, to be able to load, save, and display data entered.
-///Created By: Chris Malone
-///Created For: CPSC1012 - Abhilash Hareendranathan
-///Date: November 15, 2025
-///</summary>
-
-namespace Assignment3
+﻿namespace Assignment3
 {
     internal class Program
     {
-        /// <summary>
-        /// Main method for Assignment 3.
-        /// Program allows the user to enter/save/load/edit/view daily time tracking values from a file.
-        /// Allows simple data analysis for a given month.
-        /// </summary>
-        /// <param name="args"></param>
+        ///<summary>
+        ///Program to run as a monthly time tracker, to be able to load, save, and display data entered.
+        ///Created By: Chris Malone
+        ///Created For: CPSC1012 - Abhilash Hareendranathan
+        ///Date: November 15, 2025
+        ///</summary>
         static void Main(string[] args)
         {
             bool continueProgram = true;
@@ -32,7 +25,7 @@ namespace Assignment3
             // TODO:
             // create a variable to represent the logical size of the array
 
-            DisplayProgramIntro();
+            ///DisplayProgramIntro();
 
             DisplayMainMenu();
 
