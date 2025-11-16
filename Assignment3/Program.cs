@@ -235,50 +235,50 @@
                 Console.WriteLine("${text}");
            }
 
-        /// <summary>
-        /// Allows to Prompt the user with the customized strings.
-        /// </summary>
-        static void PromptDouble(double value)
-             {
-                 double value;
-                 Console.Write("Enter a Value");
-                 double.Parse(Console.ReadLine());
-             }
-       
-        // TODO: create the PromptDouble() method
+            // TODO: create the PromptDouble() method
 
-        // optional TODO: create the PromptInt() method
+            /// <summary>
+            /// Allows to Prompt the user for a value classified as a double.
+            /// </summary>
+            static void PromptDouble(double value)
+            {
+                double value;
+                Console.Write("Enter a Value");
+                double.Parse(Console.ReadLine());
+            }
 
-        // TODO: create the CalculateLargest() method
+            // optional TODO: create the PromptInt() method
 
-        // TODO: create the CalculateSmallest() method
+            // TODO: create the CalculateLargest() method
 
-        // TODO: create the CalculateMean() method
+            // TODO: create the CalculateSmallest() method
 
-        // ++++++++++++++++++++++++++++++++++++ Difficulty 2 ++++++++++++++++++++++++++++++++++++
+            // TODO: create the CalculateMean() method
 
-        // TODO: create the EnterDailyValues method
+            // ++++++++++++++++++++++++++++++++++++ Difficulty 2 ++++++++++++++++++++++++++++++++++++
 
-        // TODO: create the LoadFromFile method
+            // TODO: create the EnterDailyValues method
 
-        // TODO: create the SaveToFile method
+            // TODO: create the LoadFromFile method
 
-        // TODO: create the DisplayEntries method
+            // TODO: create the SaveToFile method
 
-        // ++++++++++++++++++++++++++++++++++++ Difficulty 3 ++++++++++++++++++++++++++++++++++++
+            // TODO: create the DisplayEntries method
 
-        // TODO: create the EditEntries method
+            // ++++++++++++++++++++++++++++++++++++ Difficulty 3 ++++++++++++++++++++++++++++++++++++
 
-        // ++++++++++++++++++++++++++++++++++++ Difficulty 4 ++++++++++++++++++++++++++++++++++++
+            // TODO: create the EditEntries method
 
-        // TODO: create the DisplayChart method
+            // ++++++++++++++++++++++++++++++++++++ Difficulty 4 ++++++++++++++++++++++++++++++++++++
 
-        // ********************************* Helper methods *********************************
+            // TODO: create the DisplayChart method
 
-        /// <summary>
-        /// Displays the Program intro.
-        /// </summary>
-        static void DisplayProgramIntro()
+            // ********************************* Helper methods *********************************
+
+            /// <summary>
+            /// Displays the Program intro.
+            /// </summary>
+            static void DisplayProgramIntro()
         {
             Console.WriteLine("****************************************\n" +
                 "*                                      *\n" +
