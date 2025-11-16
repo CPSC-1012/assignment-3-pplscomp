@@ -210,9 +210,31 @@
             Console.WriteLine("[Q]uit Program");
         }
 
-        // TODO: create the DisplayAnalysisMenu() method
 
-        // TODO: create the Prompt method
+            // TODO: create the DisplayAnalysisMenu() method
+            /// <summary>
+            /// Displays the submenu for data analysis for the program.
+            /// </summary>
+            static void DisplayAnalysisMenu()
+            {
+                Console.WriteLine("[A]verage");
+                Console.WriteLine("[H]ighest");
+                Console.WriteLine("[L]owest");
+                Console.WriteLine("[G]raph");
+                Console.WriteLine("[R]eturn to MAIN MENU");
+            }
+
+            // TODO: create the Prompt method
+            /// <summary>
+            /// Allows to Prompt the user with the customized strings.
+            /// </summary>
+            
+            static void Prompt(string text)
+                string text;
+                Console.WriteLine("${text}");
+
+        }
+
 
         // TODO: create the PromptDouble() method
 
