@@ -1,4 +1,6 @@
-﻿namespace Assignment3
+﻿using System.Xml.Linq;
+
+namespace Assignment3
 {
     internal class Program
     {
@@ -228,7 +230,9 @@
             /// <summary>
             /// Allows to Prompt the user with the customized strings.
             /// </summary>
-            
+            /// <param name = "text"> text to be prompted to the user</param>
+
+
             static void Prompt(string text)
            {
                 string text;
@@ -240,6 +244,7 @@
             /// <summary>
             /// Allows to Prompt the user for a value classified as a double.
             /// </summary>
+            /// <param name = "value"> value to be interpreted as a double</param>
             static void PromptDouble(double value)
             {
                 double value;
@@ -252,6 +257,7 @@
             /// <summary>
             /// Allows to Prompt the user for a value classified as a integer.
             /// </summary>
+            /// <param name = "value"> value to be interpreted as an integer</param>
             static void PromptInt(int value)
             {
                 int value;
