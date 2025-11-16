@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Xml.Linq;
 
 namespace Assignment3
 {
@@ -15,19 +16,30 @@ namespace Assignment3
             bool continueProgram = true;
 
             // TODO: 
+            const int DayMaxLength = 31; //maximum days to a month
+            const int MonthMaxLength = 12; //maximum months to a year
+            const int MinuteMaxLength = 1440; //maximum minutes to a day
+            const int YearMaxLength = 1; //only for 1 year
+
             // declare a constant to represent the maximum size of the arrays
             // arrays must be large enough to store data for an entire month 
 
             // TODO:
             // create a string array named dates, using the max size constant you created above to specify the physical size of the array
-
+            string[] month = new string[MonthMaxLength] { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" };
+            string[] day = new string[DayMaxLength] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" };
+            String[] year = new string[YearMaxLength] { "2025" };
+            string[,,] dates = new string[YearMaxLength,MonthMaxLength,DayMaxLength];
+            
             // TODO:
-            // create a double array named minutes, using the max size constant you created above to specify the physical size of the array
 
+            // create a double array named minutes, using the max size constant you created above to specify the physical size of the array
+            double[] minutes = new double[MinuteMaxLength];
             // TODO:
             // create a variable to represent the logical size of the array
+            int minutesLogicalSize = minutes.Length - 1;
 
-            ///DisplayProgramIntro();
+            DisplayProgramIntro();
 
             DisplayMainMenu();
 
