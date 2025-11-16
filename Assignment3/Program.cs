@@ -147,7 +147,7 @@
             {
                 string analysisMenuChoice;
 
-                // TODO: call DisplayAnalysisMenu()
+                DisplayAnalysisMenu();
 
                 analysisMenuChoice = Prompt("Enter ANALYSIS sub-menu option: ").ToUpper();
                 Console.WriteLine();
@@ -230,12 +230,21 @@
             /// </summary>
             
             static void Prompt(string text)
+           {
                 string text;
                 Console.WriteLine("${text}");
+           }
 
-        }
-
-
+        /// <summary>
+        /// Allows to Prompt the user with the customized strings.
+        /// </summary>
+        static void PromptDouble(double value)
+             {
+                 double value;
+                 Console.Write("Enter a Value");
+                 double.Parse(Console.ReadLine());
+             }
+       
         // TODO: create the PromptDouble() method
 
         // optional TODO: create the PromptInt() method
